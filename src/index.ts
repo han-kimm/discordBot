@@ -1,12 +1,9 @@
 import { confluenceEnsembleRetriever } from "./components/retriever/ensembleRetriever/confluence";
+import { confluenceMultiqueryRetriever } from "./components/retriever/multiqueryRetriever/confluence";
 
 async function main() {
-  const relatedDocs = await confluenceEnsembleRetriever(
-    "데이터 베이스 변경",
-    "ecubelabs-test4",
-    "confluencePageContents-40271993.json"
-  );
-  console.log(relatedDocs);
+  const multiquery = await confluenceMultiqueryRetriever("frontend components");
+  console.log(multiquery);
 }
 
 main();
