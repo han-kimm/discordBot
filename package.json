@@ -1,14 +1,26 @@
 {
   "name": "rag-study",
-  "packageManager": "yarn@4.2.2",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node build/index.js"
   },
   "devDependencies": {
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
-  }
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.2.1",
+    "langchain": "^0.2.9"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
