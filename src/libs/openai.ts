@@ -5,13 +5,15 @@ config();
 
 const openAIApiKey = process.env.OPENAI_API_KEY;
 
-export const chatOpenai = (modelName: string) =>
+export const chatOpenai = (modelName: "gpt-3.5-turbo" | "gpt-4o") =>
   new ChatOpenAI({
     openAIApiKey,
     modelName,
   });
 
-export const embedOpenai = (modelName: string) =>
+export const embedOpenai = (
+  modelName: "text-embedding-3-small" | "text-embedding-3-large"
+) =>
   new OpenAIEmbeddings({
     openAIApiKey,
     modelName,
