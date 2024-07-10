@@ -18,7 +18,7 @@ axios.defaults.headers.common["Content-Type"] = "application/json";
 
 // NOTE: Confluence의 특정 페이지의 자식 페이지들의 ID를 가져오는 함수
 // ID를 먼저 가져오고, 이후에 페이지의 내용을 가져오는 방식으로 사용
-async function getChildrenPageIds(pageId: string) {
+export async function getChildrenPageIds(pageId: string) {
   const response = await axios.get(
     `/wiki/api/v2/pages/${pageId}/children?limit=250`
   );
@@ -26,7 +26,7 @@ async function getChildrenPageIds(pageId: string) {
   return results.map((result: any) => result.id);
 }
 
-async function getAllChildrenPageIds(pageId: string) {
+export async function getAllChildrenPageIds(pageId: string) {
   let result: string[] = [];
   const childrenPageIds = await getChildrenPageIds(pageId);
   if (childrenPageIds.length === 0) {
@@ -49,12 +49,12 @@ export async function savePageIds(id: string) {
   );
 }
 
-async function loadPageIds(filePath: string) {
+export async function loadPageIds(filePath: string) {
   const data = await readFile(filePath, "utf-8");
   return JSON.parse(data);
 }
 
-async function getContentById(id: string) {
+export async function getContentById(id: string) {
   const response = await axios.get(
     `/wiki/api/v2/pages/${id}?body-format=export_view`
   );
@@ -66,15 +66,39 @@ async function getContentById(id: string) {
   };
 }
 
-export async function getAllPageContents(filePath: string) {
+export async function getAllPageContents(parentPageId: string) {
+  const ids = await getAllChildrenPageIds(parentPageId);
+  const contents = await Promise.all(
+    ids.map((id: string) => getContentById(id))
+  );
+
+  return contents;
+}
+
+export async function getAllPageContentsWithJSON(filePath: string) {
   const ids = await loadPageIds(filePath);
   const contents = await Promise.all(
     ids.map((id: string) => getContentById(id))
   );
+  return contents;
+}
+
+export async function saveAllpageContents(parentPageId: string) {
+  const contents = await getAllPageContents(parentPageId);
+
   await writeFile(
     __dirname.replace("libs", "assets") +
-      `/confluencePageContents-${ids[0]}.json`,
+      `/confluenceContents-${parentPageId}.json`,
     JSON.stringify(contents, null, 2)
   );
-  return contents;
+}
+
+export async function getAllPageContentsFromJSON(
+  filePath: string
+): Promise<{ pageContent: string; url: string }[]> {
+  const data = await readFile(
+    __dirname.replace("libs", "assets") + `/${filePath}`,
+    "utf-8"
+  );
+  return JSON.parse(data);
 }

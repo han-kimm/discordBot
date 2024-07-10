@@ -1,13 +1,10 @@
-import { readFile } from "fs/promises";
-import { Document } from "langchain/document";
 import { Chroma } from "@langchain/community/vectorstores/chroma";
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
-import { embedOpenai } from "../../libs/openai";
-import { EnsembleRetriever } from "langchain/retrievers/ensemble";
 import { BaseRetriever, BaseRetrieverInput } from "@langchain/core/retrievers";
-
-const EMBED_MODEL = "text-embedding-3-large";
-const collectionName = "ecubelabs-test7";
+import { Document } from "langchain/document";
+import { EnsembleRetriever } from "langchain/retrievers/ensemble";
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+import { embedOpenai } from "../../../libs/openai";
+import { confluencePrepLoader } from "../../loader/confluence";
 
 class SimpleCustomRetriever extends BaseRetriever {
   lc_namespace = [];
@@ -26,19 +23,13 @@ class SimpleCustomRetriever extends BaseRetriever {
   }
 }
 
-export async function ensembleRetriever(filePath: string, query: string) {
-  console.log("=".repeat(100));
-  console.log("start file reading...");
-  const data = await readFile(filePath, "utf-8");
-  const jsonfiles: { pageContent: string; url: string }[] = JSON.parse(data);
-  const documents = jsonfiles.map((embed) => {
-    return new Document({
-      pageContent: embed.pageContent,
-      metadata: {
-        url: embed.url,
-      },
-    });
-  });
+export async function confluenceEnsembleRetriever(
+  query: string,
+  collectionName: string,
+  filePath: string
+) {
+  const documents = await confluencePrepLoader(filePath);
+
   const splitter = new RecursiveCharacterTextSplitter({
     chunkSize: 1000,
     chunkOverlap: 100,
@@ -49,11 +40,8 @@ export async function ensembleRetriever(filePath: string, query: string) {
     documents: splitedDocs,
   });
 
-  console.log("=".repeat(100));
-  console.log(`start file embedding by model ${EMBED_MODEL}...`);
-  const vectorStore = await Chroma.fromDocuments(
-    splitedDocs,
-    embedOpenai(EMBED_MODEL),
+  const vectorStore = await Chroma.fromExistingCollection(
+    embedOpenai("text-embedding-3-small"),
     {
       collectionName,
       url: "http://localhost:8000",

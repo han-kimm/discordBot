@@ -1,14 +1,12 @@
-import { ensembleRetriever } from "./components/rag/ensembleRetriever";
-import { chatOpenai } from "./libs/openai";
+import { confluenceEnsembleRetriever } from "./components/retriever/ensembleRetriever/confluence";
 
 async function main() {
-  const retrivedDocs = await ensembleRetriever(
-    __dirname.split("components")[0] +
-      "/assets/confluencePageContents-40271993.json",
-    "CRUD convention in frontend development"
+  const relatedDocs = await confluenceEnsembleRetriever(
+    "데이터 베이스 변경",
+    "ecubelabs-test4",
+    "confluencePageContents-40271993.json"
   );
-
-  console.log("=".repeat(100));
-
-  console.log(retrivedDocs);
+  console.log(relatedDocs);
 }
+
+main();
