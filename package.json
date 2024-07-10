@@ -14,8 +14,10 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@langchain/community": "^0.2.18",
     "@langchain/openai": "^0.2.1",
     "axios": "^1.7.2",
+    "chromadb": "^1.8.1",
     "html-to-text": "^9.0.5",
     "langchain": "^0.2.9"
   },
