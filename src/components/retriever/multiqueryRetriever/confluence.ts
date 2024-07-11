@@ -13,7 +13,7 @@ export async function confluenceMultiqueryRetriever(query: string) {
     }
   ).then((chroma) =>
     chroma.asRetriever({
-      k: 1,
+      k: 3,
     })
   );
 

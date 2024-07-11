@@ -9,6 +9,7 @@ export const chatOpenai = (modelName: "gpt-3.5-turbo" | "gpt-4o") =>
   new ChatOpenAI({
     openAIApiKey,
     modelName,
+    temperature: 0,
   });
 
 export const embedOpenai = (
