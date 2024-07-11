@@ -95,7 +95,10 @@ export async function saveAllpageContents(parentPageId: string) {
 
 export async function getAllPageContentsFromJSON(
   filePath: string
-): Promise<{ pageContent: string; url: string }[]> {
+): Promise<
+  | { pageContent: string; url: string }[]
+  | { pageContent: string; metadata: { [key: string]: any } }[]
+> {
   const data = await readFile(
     __dirname.replace("libs", "assets") + `/${filePath}`,
     "utf-8"

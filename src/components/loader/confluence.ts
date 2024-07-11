@@ -24,6 +24,12 @@ export async function confluenceLoader(parentPageId: string) {
 export async function confluencePrepLoader(fileName: string) {
   const pageContents = await getAllPageContentsFromJSON(fileName);
   const documents = pageContents.map((embed) => {
+    if ("metadata" in embed) {
+      return new Document({
+        pageContent: embed.pageContent,
+        metadata: embed.metadata,
+      });
+    }
     return new Document({
       pageContent: embed.pageContent,
       metadata: {

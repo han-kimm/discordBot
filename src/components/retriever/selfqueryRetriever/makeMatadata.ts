@@ -41,7 +41,7 @@ export async function makeMetadata() {
       join(__dirname, "./assets/confluenceDocuments-40271993.json"),
       JSON.stringify(
         result.map((r, i) => ({
-          pageCotent: current[i].pageContent,
+          pageContent: current[i].pageContent,
           metadata: { url: current[i].url, ...r },
         })),
         null,
