@@ -4,7 +4,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "naming conventions, variable naming, boolean variable naming, date variable naming, abbreviations, opening or closing variables, redundant postfix",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/40271993"
     }
   },
   {
@@ -12,7 +13,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "document writing guide, comments, commit messages, error messages, tokens, semantic commit messages, AI commits",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/40173590"
     }
   },
   {
@@ -20,7 +22,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Date development guide, DateTime, DayOfWeek, CalendarDate, Date operations, DateTime ↔︎ CalendarDate conversion, Summer Time",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/176848899"
     }
   },
   {
@@ -28,7 +31,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "DB operation guide, DB operation process, DB operation JIRA template, DBA",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/120783029"
     }
   },
   {
@@ -36,7 +40,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Dockerfile best practices, ARG command, ENV command, multi-stage build, image size optimization, cache optimization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1333264389"
     }
   },
   {
@@ -44,7 +49,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jenkins job, cron",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1938784349"
     }
   },
   {
@@ -52,7 +58,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "translation request, translation key, Jira, output data format, variable in output data, multilingual message migration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/230621346"
     }
   },
   {
@@ -60,7 +67,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "RxJS, tap, debugging, side effects",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/111116289"
     }
   },
   {
@@ -68,7 +76,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Secure Coding, X-Powered-By, Deny Script Execution, Security Scan, Column-Level Encryption, MySQL",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2043609129"
     }
   },
   {
@@ -76,7 +85,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "environment setup guide, npm start, Dockerfile, environment variables, development environment",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/220233971"
     }
   },
   {
@@ -84,7 +94,8 @@
     "metadata": {
       "relatedTechnology": "ICU",
       "keyword": "multilingual development guide, ICU i18n guide, message content, form labels",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/138314121"
     }
   },
   {
@@ -92,7 +103,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "testing, TDD, BDD, unit testing, best practices",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/852393996"
     }
   },
   {
@@ -100,7 +112,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Distributed Tracing, Transaction ID, Log Forwarder, Elastic Cloud on Kubernetes, Axios, Activity IDs, Kibana",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2844688853"
     }
   },
   {
@@ -108,7 +121,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "event logger, user event search, Google Tag Manager, button click verification",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/262734319"
     }
   },
   {
@@ -116,7 +130,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "OAuth2, GCP OAuth2 Client, IETF RFC6749, Access Token, Refresh Token",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/334626869"
     }
   },
   {
@@ -124,7 +139,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Docker Compose, Integrated Development Guide, Service Management, Troubleshooting",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/62128425"
     }
   },
   {
@@ -132,7 +148,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "user tracking, UTM, Google Ads, double UTM parameters",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204275761"
     }
   },
   {
@@ -140,7 +157,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "office address, resource update, ERP API, mail signature, address change",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1702428884"
     }
   },
   {
@@ -148,7 +166,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Copyright 작업 가이드, hardcoding, best practices, recommendations",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1714290725"
     }
   },
   {
@@ -156,7 +175,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "email signature, development guide, banner, image background, publishing, email client",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/27787361"
     }
   },
   {
@@ -164,7 +184,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "SEO guide, hreflang, reference",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1868169440"
     }
   },
   {
@@ -172,7 +193,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "CONFLICT LOCK FILE, BUMP",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3074555952"
     }
   },
   {
@@ -180,7 +202,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "tooling, troubleshooting, node-canvas, error, solution, package installation, python downgrade",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1897267208"
     }
   },
   {
@@ -188,7 +211,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Framer, component development, import, Portal, Code Component, addPropertyControls, ControlType, ThemeProvider",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1912930468"
     }
   },
   {
@@ -196,7 +220,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Go lang, K8s Operator, Operator SDK, development guide",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/812679293"
     }
   },
   {
@@ -204,7 +229,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "LLM, Salesforce AI Research, CRM Benchmark",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2283176041"
     }
   },
   {
@@ -212,7 +238,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Git branch, Git merge, GitHub flow, feature branch, develop branch, code review, pull request, hotfix, ECUBE LABS' FLOW",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2611576932"
     }
   },
   {
@@ -220,7 +247,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Git branch, Git merge, Mobile, Code Push, RN project, Git flow",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2802450474"
     }
   },
   {
@@ -228,7 +256,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": ".gitignore, version control, build artifacts, development environment",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2656731290"
     }
   },
   {
@@ -236,7 +265,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "code review, GitHub, PR, review process, conversation, draft PR, notification",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2769551378"
     }
   },
   {
@@ -244,7 +274,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2769682490"
     }
   },
   {
@@ -252,7 +283,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "document writing rules, document title rules, document template selection, content writing rules, domain model, aggregate root, diagram, communication, language, reference document",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2915762181"
     }
   },
   {
@@ -260,7 +292,8 @@
     "metadata": {
       "relatedTechnology": "axios",
       "keyword": "HTTP client, axios, Timeout setting",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3020587222"
     }
   },
   {
@@ -268,7 +301,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "array, array, concat, push, merge",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3069313026"
     }
   },
   {
@@ -276,7 +310,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Remove Array Duplicates, ES6, Performance Test",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/51216589"
     }
   },
   {
@@ -284,7 +319,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "ESLint, JavaScript, code analysis, AST, TypeScript, linting, deprecated, eslint-config-ecubelabs, airbnb-base, prettier",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221020169"
     }
   },
   {
@@ -292,7 +328,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "tsconfig, TypeScript, compiler options, Node.js, transpilation, frontend environment, backend environment, Node version migration, NPM publish",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/142540848"
     }
   },
   {
@@ -300,7 +337,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "toString, toJSON",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/34078774"
     }
   },
   {
@@ -308,7 +346,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "String conversion, Template literal, Performance, Benchmark",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2384887829"
     }
   },
   {
@@ -316,7 +355,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GitHub Package, module deployment, module installation, npm, GitHub Actions",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1516798021"
     }
   },
   {
@@ -324,7 +364,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "npm dependency management, package.json, dependencies, devDependencies, peerDependencies, package-lock.json",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1210187842"
     }
   },
   {
@@ -332,7 +373,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Private NPM Registry, Verdaccio, module installation, module publishing, npmrc, package.json, versioning, Semantic Versioning",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/110100487"
     }
   },
   {
@@ -340,7 +382,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "folder structure, naming convention, React Native, components, containers, hooks, screens, assets, images, iOS, Pods, Podfile.lock, routes, deprecated",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/165380683"
     }
   },
   {
@@ -348,7 +391,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "web accessibility, development conventions, testing-library, a11y, aria attributes, input fields, labels, hints",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/116260939"
     }
   },
   {
@@ -356,7 +400,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "data model declaration, convention, development target, type mapping, serializable",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2103869494"
     }
   },
   {
@@ -364,7 +409,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Repository development, Object declaration, Parameter type as object, Mocking, Observable, Axios",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2104590349"
     }
   },
   {
@@ -372,7 +418,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "FSM, rendering block, access token, user language, context, useState, createContext, AuthProvider",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2334785543"
     }
   },
   {
@@ -380,7 +427,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "component development, React, official documentation, navigation",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2715320374"
     }
   },
   {
@@ -388,7 +436,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "control flow, switch statement, error handling, fallback",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2719744036"
     }
   },
   {
@@ -396,7 +445,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "data fetching, state management, useQuery, useLazyQuery, useMutation, QueryOptions, QueryResult",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1126039657"
     }
   },
   {
@@ -404,7 +454,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "URL design, frontend, path, query string, fragment identifier, auxiliary routes, SEO, bug case",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2273837083"
     }
   },
   {
@@ -412,7 +463,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "unit test, interaction test, visual regression test, integration test",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/59572227"
     }
   },
   {
@@ -420,7 +472,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "multilingual message development, message key verification, message application, downloading, application, using in JS code, using in React components, variable passing, caution",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/192413700"
     }
   },
   {
@@ -428,7 +481,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "environment variables, local testing, stage testing, webpack, Dockerfile, Jenkinsfile, withCredentials, build-arg",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2780135590"
     }
   },
   {
@@ -436,7 +490,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "performance optimization, React, memoization, inline functions",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/230719566"
     }
   },
   {
@@ -444,7 +499,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "CORS",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1033601417"
     }
   },
   {
@@ -452,7 +508,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "email template, responsive design, web font, image in email body, mouse hover, testing, CSS",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1182106025"
     }
   },
   {
@@ -460,7 +517,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "folder structure, web, mobile, screens, domain, process, screen, convention",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/290947459"
     }
   },
   {
@@ -468,7 +526,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "folder structure, web, mobile, integration, discussion, record, React, Next.js",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2390032449"
     }
   },
   {
@@ -476,7 +535,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1033437612"
     }
   },
   {
@@ -484,7 +544,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "component naming rules, dialog naming rules",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/118686116"
     }
   },
   {
@@ -492,7 +553,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "function component, export, React.memo, prop type separation, function component comment, prop naming, boolean prop, controlled component, uncontrolled component",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/246317252"
     }
   },
   {
@@ -500,7 +562,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Props, State, Passing ID vs Entity as props, Route state management, Querystring, Fragment, React",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/598966654"
     }
   },
   {
@@ -508,7 +571,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Event handling, Prefix for Event handling, Bubbling and Propagation",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/348980028"
     }
   },
   {
@@ -516,7 +580,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Table, Section, Cell",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/653033639"
     }
   },
   {
@@ -524,7 +589,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Lists and Keys",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/336953700"
     }
   },
   {
@@ -532,7 +598,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Forms, Form Development, Callback, Validation, forwardRef, useImperativeHandle, Class Component, Function Component, Redux",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2213543941"
     }
   },
   {
@@ -540,7 +607,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Segmented Component, Naming Convention, React Native",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2297331717"
     }
   },
   {
@@ -548,7 +616,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "RTL support, styling guide, storybook guide, RTL props",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2749661534"
     }
   },
   {
@@ -556,7 +625,8 @@
     "metadata": {
       "relatedTechnology": "MATERIAL-UI",
       "keyword": "colon, amount display, A11y best practices, semantic tags",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/625312153"
     }
   },
   {
@@ -564,7 +634,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "MUI, Components, Inputs, Button, Data Display, Typography, System, Spacing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/174948357"
     }
   },
   {
@@ -572,7 +643,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "CEEDUI",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/180420966"
     }
   },
   {
@@ -580,7 +652,8 @@
     "metadata": {
       "relatedTechnology": "@mui/x-data-grid",
       "keyword": "DataGrid, GridColDef, Height, With pagination, In BackOffice, In Dash-Board",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2031026306"
     }
   },
   {
@@ -588,7 +661,8 @@
     "metadata": {
       "relatedTechnology": "Material-UI",
       "keyword": "Modal, Dialog, Interaction",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2008612944"
     }
   },
   {
@@ -596,7 +670,8 @@
     "metadata": {
       "relatedTechnology": "visx, React, d3",
       "keyword": "Charts, Data Visualization, React, Library, SVG",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/806355067"
     }
   },
   {
@@ -604,7 +679,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "SVG handling, file-loader, webpack/svgr, @mui/material SvgIcon",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2288058516"
     }
   },
   {
@@ -612,7 +688,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Layout Component Concept, Grid Layout, Presentation Tools",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/372638546"
     }
   },
   {
@@ -620,7 +697,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Date management, ISO format string, Date object, data integrity",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/372638296"
     }
   },
   {
@@ -628,7 +706,8 @@
     "metadata": {
       "relatedTechnology": "react-hook-form, yup",
       "keyword": "registration, validation, submission",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/349143994"
     }
   },
   {
@@ -636,7 +715,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Formik, validation library, yup, react-hook-form",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/374341829"
     }
   },
   {
@@ -644,7 +724,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "ScrollView, Button, scrolling, pushing button down",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/381256598"
     }
   },
   {
@@ -652,7 +733,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "performance optimization, web performance, front-end development",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1640235032"
     }
   },
   {
@@ -660,7 +742,8 @@
     "metadata": {
       "relatedTechnology": "Material-UI v4, emotion",
       "keyword": "CSS rendering performance optimization, CSS-in-JS library, makeStyles, withStyles, inline styles, CSSOM, SPA environment, critical rendering path, JSS",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/233340980"
     }
   },
   {
@@ -668,7 +751,8 @@
     "metadata": {
       "relatedTechnology": "Material-UI",
       "keyword": "Responsive Design, Grid, Breakpoints, Container, Item, Nested Grid, Flexbox Layout",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/575635551"
     }
   },
   {
@@ -676,7 +760,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "emotion, MUI v5, styling guide, inline-style, css, Box component, Stack component, sx, MUI classname, Unstyled component, conditional styling, styleOverrides, Theme object, Palette type extension, px unit",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2810511379"
     }
   },
   {
@@ -684,7 +769,8 @@
     "metadata": {
       "relatedTechnology": "react-hook-form, MUI",
       "keyword": "initialize in uncontrolled way",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2476638313"
     }
   },
   {
@@ -692,7 +778,8 @@
     "metadata": {
       "relatedTechnology": "@mui/icons-material",
       "keyword": "icon module, bundle size, import",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2235596803"
     }
   },
   {
@@ -700,7 +787,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Performance issues, Rendering, SVG, PNG, Memoization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2109374569"
     }
   },
   {
@@ -708,7 +796,8 @@
     "metadata": {
       "relatedTechnology": "GoogleMap API",
       "keyword": "Map, GoogleMap, API, Marker, Polyline",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2390130691"
     }
   },
   {
@@ -716,7 +805,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "MapOverlayView, Performance issues, Rendering optimization, Memoization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2911961505"
     }
   },
   {
@@ -724,7 +814,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "NativeMarker, GoogleMap, Marker, MapOverlayView, performance, abstraction, custom icon",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/236159132"
     }
   },
   {
@@ -732,7 +823,8 @@
     "metadata": {
       "relatedTechnology": "supercluster",
       "keyword": "MapClusters, cluster, supercluster, MapOverlayView",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2414706698"
     }
   },
   {
@@ -740,7 +832,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "MapSearchBox, Google SearchBox API, custom component, autocomplete",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1884520455"
     }
   },
   {
@@ -748,7 +841,8 @@
     "metadata": {
       "relatedTechnology": "GoogleMap",
       "keyword": "Polyline, HeatmapLayer, visualization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1144161094"
     }
   },
   {
@@ -756,7 +850,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Dialog, Submit button, Open and Close, Event handlers, DisableBackdropClick, Close handler, Submit handler, Error handler, With Datagrid",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2413035521"
     }
   },
   {
@@ -764,7 +859,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Chart, Graph",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1712881854"
     }
   },
   {
@@ -772,7 +868,8 @@
     "metadata": {
       "relatedTechnology": "webpack, svgr",
       "keyword": "SVG, React, webpack, svgr",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1935409153"
     }
   },
   {
@@ -780,7 +877,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "API request rules, Authorization, Response body customization, Accept-Language header, ISO 639-1, ISO 3166-1",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2294841417"
     }
   },
   {
@@ -788,7 +886,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "useQuery, useLazyQuery, useMutation, testing, mocking, React, Apollo",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2386526223"
     }
   },
   {
@@ -796,7 +895,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Interaction Testing, Accessibility, Testing Library, API Testing, Event Handler Testing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2869297393"
     }
   },
   {
@@ -804,7 +904,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "CSF v3, API Mocking, Data mocking, Date Mocking, RTL support, Component properties, ArgTypes, Parameters, Decorators, Mocking, Data mocking, FullScreen layout",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2810937441"
     }
   },
   {
@@ -812,7 +913,8 @@
     "metadata": {
       "relatedTechnology": "ESLINT-PLUGIN-STORYBOOK, MUI 5, @TESTING-LIBRARY/JEST-DOM",
       "keyword": "storybook, eslint-plugin-storybook, emotion, mui, compatibility, jest-dom, typescript",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2810347530"
     }
   },
   {
@@ -820,7 +922,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Chromatic, visual testing, UI Tests, Storybook, automated testing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2811035693"
     }
   },
   {
@@ -828,7 +931,8 @@
     "metadata": {
       "relatedTechnology": "ICU",
       "keyword": "ICU MESSAGE, GETTEXT",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2811265039"
     }
   },
   {
@@ -836,7 +940,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "translation, BabelEdit, modules-lang, GitHub, branching, PR, npm, namespace, translation rules",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2811265057"
     }
   },
   {
@@ -844,7 +949,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "translation process, Poedit, Git, translation key addition, translation key modification, adding new language",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2811134023"
     }
   },
   {
@@ -852,7 +958,8 @@
     "metadata": {
       "relatedTechnology": "React",
       "keyword": "React.memo, render optimization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2811199594"
     }
   },
   {
@@ -860,7 +967,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "React Profiling, Frame Drop, React Developer Tools, Performance Optimization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1773076779"
     }
   },
   {
@@ -868,7 +976,8 @@
     "metadata": {
       "relatedTechnology": "React",
       "keyword": "React Memo, Shallow Compare, Cache",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2129133595"
     }
   },
   {
@@ -876,7 +985,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "HTTP Caching, Cache Busting, HTTP response headers, Nginx, Cache-Control, Pragma, CDN, Webpack",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2389934095"
     }
   },
   {
@@ -884,7 +994,8 @@
     "metadata": {
       "relatedTechnology": "Cypress, @testing-library/cypress",
       "keyword": "project setup, installation",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/120783458"
     }
   },
   {
@@ -892,7 +1003,8 @@
     "metadata": {
       "relatedTechnology": "typesafe-actions",
       "keyword": "Redux, Asynchronous Action Creator, Synchronous Action Creator, naming conventions, VS Code Snippets",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1713012767"
     }
   },
   {
@@ -900,7 +1012,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "naming convention, Redux, filtering actions, Epic, action creators",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2308440065"
     }
   },
   {
@@ -908,7 +1021,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Redux, Reducer, Development Guide",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2049703964"
     }
   },
   {
@@ -916,7 +1030,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "service, convention, API, observable, DI, naming convention",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2302214188"
     }
   },
   {
@@ -924,7 +1039,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "UserRepository, Singleton, getSelf, signIn, autoSignIn, signOut",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2093940774"
     }
   },
   {
@@ -932,7 +1048,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Flux convention",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/159645697"
     }
   },
   {
@@ -940,7 +1057,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Redux, Smart Components, Event Cancellation, setState, callback, convention, PropTypes",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/159809537"
     }
   },
   {
@@ -948,7 +1066,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/159907871"
     }
   },
   {
@@ -956,7 +1075,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Domain Event Development, Eventual Consistency, Event-driven Architecture, Domain-driven Design, Event Sourcing, CQRS",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1397882885"
     }
   },
   {
@@ -964,7 +1084,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "domain specification, account, charge, invoice, prorate, dumpster delivery fee",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/336920909"
     }
   },
   {
@@ -972,7 +1093,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "repository development, convention, separation of concerns",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1880621383"
     }
   },
   {
@@ -980,7 +1102,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "application service development, list, retrieve",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1072267478"
     }
   },
   {
@@ -988,7 +1111,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "API development",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2415362049"
     }
   },
   {
@@ -996,7 +1120,8 @@
     "metadata": {
       "relatedTechnology": "react-intl, Format.js",
       "keyword": "multilingual message development, intl-messageformat, Live Editor",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2297626673"
     }
   },
   {
@@ -1004,7 +1129,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Control flow, switch, error handling",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/231112851"
     }
   },
   {
@@ -1012,7 +1138,8 @@
     "metadata": {
       "relatedTechnology": "Kubernetes",
       "keyword": "Signal processing, Service deployment, SIGTERM, SIGKILL, Cleanup",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/241926160"
     }
   },
   {
@@ -1020,7 +1147,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Map library, mapClient interface, abstraction, Google Maps",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/235307060"
     }
   },
   {
@@ -1028,7 +1156,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Async/Await, JavaScript, ES8, Promise, async.js, Node.js, callback hell, stack trace, AsyncFunction, Promise.resolve, await, blocking, overhead, Promise.all, Promise.race, async/await best practices",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/664470139"
     }
   },
   {
@@ -1036,7 +1165,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GraphQL",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/231702567"
     }
   },
   {
@@ -1044,7 +1174,8 @@
     "metadata": {
       "relatedTechnology": "boom",
       "keyword": "error throwing, error messages, security",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/870416409"
     }
   },
   {
@@ -1052,7 +1183,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Pagination, Offset-based pagination, Cursor-based pagination, Server implementation",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/208306201"
     }
   },
   {
@@ -1060,7 +1192,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "KafkaJS, Consumer, fromBeginning, offset, subscribe",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/240877569"
     }
   },
   {
@@ -1068,7 +1201,8 @@
     "metadata": {
       "relatedTechnology": "prom-client",
       "keyword": "Prometheus Metrics, API development, Counter, Gauge, Metrics Naming",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1707475139"
     }
   },
   {
@@ -1076,7 +1210,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "ORM column mapping, BigInt, Decimal, Float, Date",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/303169645"
     }
   },
   {
@@ -1084,7 +1219,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "domain event development, naming conventions, publishing events, subscribing events",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2654502913"
     }
   },
   {
@@ -1092,7 +1228,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "model, job development, event handler development",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/291635906"
     }
   },
   {
@@ -1100,7 +1237,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "external event development convention, class instance passing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1755119845"
     }
   },
   {
@@ -1108,7 +1246,8 @@
     "metadata": {
       "relatedTechnology": "koa-x-router, Joi",
       "keyword": "RouterSpec, Joi.mappedSchema, RouteLayerSpec, Context",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/298778912"
     }
   },
   {
@@ -1116,7 +1255,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Endpoint Convention, REST API, FSM, URL Naming, kebab-case",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1210449947"
     }
   },
   {
@@ -1124,7 +1264,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "folder structure, API endpoint, HTTP method, route spec, index.ts, GET method, POST method, HEAD method, routing system, Koa router",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2390294582"
     }
   },
   {
@@ -1132,7 +1273,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Route spec, RouterSpec, Joi, ctx, HTTP method, HTTP header, query string, url parameter, input parameter",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/111083526"
     }
   },
   {
@@ -1140,7 +1282,8 @@
     "metadata": {
       "relatedTechnology": "Joi",
       "keyword": "schema definition, Joi, input schema, output schema, schema testing, phone number",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/117080149"
     }
   },
   {
@@ -1148,7 +1291,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "ctx destructuring, service call, service object acquisition, service params declaration, service call, service result body setting",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/174882982"
     }
   },
   {
@@ -1156,7 +1300,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "HTTP Headers, Timezone, Accept-Language",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/205127740"
     }
   },
   {
@@ -1164,7 +1309,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "CSV Export API, Stream, CSV data, Content-type, text/csv, DB, Transform, pipe, frontend, chunk, memory, timeout error",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/436633885"
     }
   },
   {
@@ -1172,7 +1318,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "ICU Message Syntax, intl-messageformat, formatting, localization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1163264020"
     }
   },
   {
@@ -1180,7 +1327,8 @@
     "metadata": {
       "relatedTechnology": "TypeORM, TypeGraphQL",
       "keyword": "TypeORM, TypeGraphQL, GraphQL, ORM, decorator",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1193214030"
     }
   },
   {
@@ -1188,7 +1336,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GraphQL, error handling, Apollo Server",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2869494083"
     }
   },
   {
@@ -1196,7 +1345,8 @@
     "metadata": {
       "relatedTechnology": "GraphQL, Apollo",
       "keyword": "Client Error handling",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2879127630"
     }
   },
   {
@@ -1204,7 +1354,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Custom Error, Error Subclassing, Stack Trace Control",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/330465394"
     }
   },
   {
@@ -1212,7 +1363,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "error code, error message, axios, errorCode convention, error handling",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/476381321"
     }
   },
   {
@@ -1220,7 +1372,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Firebase",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/485720282"
     }
   },
   {
@@ -1228,7 +1381,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "AppCenter, continuous integration, continuous deployment, mobile app development, desktop app development, build automation, test automation, app distribution, crash monitoring, analytics",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3035856902"
     }
   },
   {
@@ -1236,7 +1390,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "splash screen, loading screen, app launch screen",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2804252692"
     }
   },
   {
@@ -1244,7 +1399,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "image management, bundle, app resources, iOS, Android",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/225018068"
     }
   },
   {
@@ -1252,7 +1408,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "image picker, react-native-image-picker, react-native-image-crop-picker",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/427786600"
     }
   },
   {
@@ -1260,7 +1417,8 @@
     "metadata": {
       "relatedTechnology": "React Native",
       "keyword": "upgrade, version",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/458391553"
     }
   },
   {
@@ -1268,7 +1426,8 @@
     "metadata": {
       "relatedTechnology": "React Native, MapKit",
       "keyword": "MapView, native components, iOS, Swift, exporting",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/458522695"
     }
   },
   {
@@ -1276,7 +1435,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "image replacement, Zeplin, iOS, Android, naming convention",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/591200604"
     }
   },
   {
@@ -1284,7 +1444,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Test Flight, App Store Connect, tester registration, user registration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2029879329"
     }
   },
   {
@@ -1292,7 +1453,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "URL Scheme, iOS, URL Types, parameter, SceneDelegate",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2832334896"
     }
   },
   {
@@ -1300,7 +1462,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "iOS, build environment, key management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1202094142"
     }
   },
   {
@@ -1308,7 +1471,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "AutoFill, iOS project configuration, Associated Domains setup, AutoFill application, Shared web credentials, react-native-keychain",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/374210603"
     }
   },
   {
@@ -1316,7 +1480,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "developer guide, Apple account creation, developer invitation request, Xcode Apple account registration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/436699342"
     }
   },
   {
@@ -1324,7 +1489,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "deployment, iOS, certificate, keychain, Xcode signing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/436601236"
     }
   },
   {
@@ -1332,7 +1498,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "new developer registration, App Store Connect, Users and Access, Developer Roles, Developer Resources, Certificates, Identifiers, Profiles",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/154305331"
     }
   },
   {
@@ -1340,7 +1507,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Certificate Registration, Apple Developer, CSR File, Download Certificate",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2927394962"
     }
   },
   {
@@ -1348,7 +1516,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "developer account renewal, payment review, payment processing, receipt",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/217383194"
     }
   },
   {
@@ -1356,7 +1525,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "iOS 13, Dark Mode, Location Permission, StatusBar Style, View Controller Presentation, Swift UI",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/34242640"
     }
   },
   {
@@ -1364,7 +1534,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "UIWebView, WKWebView, deprecated, migration, library, iOS app",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/34144356"
     }
   },
   {
@@ -1372,7 +1543,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Push Certificate, iOS, Push Services",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/184516907"
     }
   },
   {
@@ -1380,7 +1552,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "APNs pem generation, Certificate extraction, Key extraction, P12 to PEM conversion, APNs pem delivery",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2137063435"
     }
   },
   {
@@ -1388,7 +1561,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Bundle ID, App deletion, App registration, iTunes Connect, Apple",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2204991524"
     }
   },
   {
@@ -1396,7 +1570,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Swift, inheritance, access level, open class, override, module",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1934295069"
     }
   },
   {
@@ -1404,7 +1579,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "iOS, Swift, Access levels, Access control",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2009759749"
     }
   },
   {
@@ -1412,7 +1588,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2302967835"
     }
   },
   {
@@ -1420,7 +1597,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "SwiftUI, Xcode, UI design, multi-platform, live coding, component reusability",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2337243155"
     }
   },
   {
@@ -1428,7 +1606,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "iOS, App Store, App Review, App Rejection",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1838645266"
     }
   },
   {
@@ -1436,7 +1615,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "iOS 13 SDK, Xcode storyboard, Apple Watch, Sign in with Apple, Kids category, HTML 5",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/227115287"
     }
   },
   {
@@ -1444,7 +1624,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Sign in with Apple, User Authentication, Social Login",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/203751783"
     }
   },
   {
@@ -1452,7 +1633,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "account deletion, Apple login, user data, legal requirements",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/193200168"
     }
   },
   {
@@ -1460,7 +1642,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Changelog, Release Notes, Logs, iOS",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/227115091"
     }
   },
   {
@@ -1468,7 +1651,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "data binding, DI, UI, util, notification",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/228655107"
     }
   },
   {
@@ -1476,7 +1660,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "tablet, device, specifications, compatibility",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/271188637"
     }
   },
   {
@@ -1484,7 +1669,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "AndroidManifest, intent filter, URL Scheme, parameter",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/272696008"
     }
   },
   {
@@ -1492,7 +1678,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Android, build environment, buildTypes, productFlavors, build variant",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/291078172"
     }
   },
   {
@@ -1500,7 +1687,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Android, build environment, key management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/374210650"
     }
   },
   {
@@ -1508,7 +1696,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "MVVM, Android application design, LiveData, RxJava, Dagger2, Room, Repository",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/436961681"
     }
   },
   {
@@ -1516,7 +1705,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "keystore, upload key, Google Play, Android app signing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2141487123"
     }
   },
   {
@@ -1524,7 +1714,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "mobile data usage issue, FM terminal device, data communication cost, Android device OEM, launcher application development, CORPORATE-OWNED, SINGLE-USE (COSU) application development, hardware requirements",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2257977420"
     }
   },
   {
@@ -1532,7 +1723,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Minimum support OS version, Android app development, API Level, Jelly Bean, KitKat, Lollipop",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204505203"
     }
   },
   {
@@ -1540,7 +1732,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "development environment",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2250702869"
     }
   },
   {
@@ -1548,7 +1741,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "location information, battery optimization, Android 8.0, background location gathering, Wi-Fi scans, geofencing responsiveness, battery performance",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204374162"
     }
   },
   {
@@ -1556,7 +1750,8 @@
     "metadata": {
       "relatedTechnology": "SMS Retriever API",
       "keyword": "SMS parsing, SMS Retriever API, Android",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/336724144"
     }
   },
   {
@@ -1564,7 +1759,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Android, permissions, user consent",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/812711965"
     }
   },
   {
@@ -1572,7 +1768,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "navigation, path node, image display",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/227213328"
     }
   },
   {
@@ -1580,7 +1777,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "LTE frequency bands, LTE bands compatibility, LTE bands list",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/556924929"
     }
   },
   {
@@ -1588,7 +1786,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "User Agent, Custom user agent, HTTP client, Identification",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/228687958"
     }
   },
   {
@@ -1596,7 +1795,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "mobile app version management, version format, build number, semantic versioning",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/230720127"
     }
   },
   {
@@ -1604,7 +1804,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "mobile app deployment, update branch, project version update, PR submission, app upload, review submission",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/272761460"
     }
   },
   {
@@ -1612,7 +1813,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "App Store deployment, Xcode, App Store Connect, iOS app distribution",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/271188726"
     }
   },
   {
@@ -1620,7 +1822,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Google Play Store, update, deployment, AAB file, release, review, submission",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/272696018"
     }
   },
   {
@@ -1628,7 +1831,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "slow query, CloudWatch, Explain, Index, Key, optimizer, binary search, IN vs NOT IN, UNION, OR statement",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/272696039"
     }
   },
   {
@@ -1636,7 +1840,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "query writing guide, update query, audit column",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/272696057"
     }
   },
   {
@@ -1644,7 +1849,8 @@
     "metadata": {
       "relatedTechnology": "percona-toolkit, pt-online-schema-change, gh-ost",
       "keyword": "DB schema migration, online DDL, DB schema update, schema modification, percona-toolkit, pt-online-schema-change, gh-ost",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/330858675"
     }
   },
   {
@@ -1652,7 +1858,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "index convention, naming, index key, foreign key, index column order",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/330858734"
     }
   },
   {
@@ -1660,7 +1867,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "database, column convention, best practices",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/374145114"
     }
   },
   {
@@ -1668,7 +1876,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Transaction",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/468025521"
     }
   },
   {
@@ -1676,7 +1885,8 @@
     "metadata": {
       "relatedTechnology": "NODE-MYSQL, NODE-MYSQL2, MODULES-MYSQL",
       "keyword": "MySQL client modules, Pool Does Not Exist, TIMEZONE, 커넥션 관련 TIMEOUT 옵션들, STREAMING, TYPECAST",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/365330581"
     }
   },
   {
@@ -1684,7 +1894,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "TypeORM, Decorators, Transaction per request, Continuation Local Storage, Date type, Datetime, Rounding issue",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2439708677"
     }
   },
   {
@@ -1692,7 +1903,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Data archiving, pt-archiver, Percona toolkit",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/374145123"
     }
   },
   {
@@ -1700,7 +1912,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "DB, change request, checklist, domain model, TODO",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/35323936"
     }
   },
   {
@@ -1708,7 +1921,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "pt-online-schema-change, DB schema update, Online DDL, non-blocking update, database migration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/27426838"
     }
   },
   {
@@ -1716,7 +1930,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "MySQL, table lock, alter table, pt-online-schema-change, foreign key, CUD, uninterrupted update",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/113705010"
     }
   },
   {
@@ -1724,7 +1939,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "pt-online-schema-change, DB schema migration, Percona Toolkit, MySQL, charset, ask-pass, alter-foreign-keys-method, chunk-time, chunk-size, recursion-method, DSN, cheatsheet",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/133333220"
     }
   },
   {
@@ -1732,7 +1948,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "RxJS, debounceTime, throttleTime, operator, performance, user experience",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/436601306"
     }
   },
   {
@@ -1740,7 +1957,8 @@
     "metadata": {
       "relatedTechnology": "rxjs",
       "keyword": "rxjs, observable, side effect, map operator, tap operator",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2144272434"
     }
   },
   {
@@ -1748,7 +1966,8 @@
     "metadata": {
       "relatedTechnology": "rxjs",
       "keyword": "axios-observable, http request, observable, unsubscribe, retry, take, operator, API request, cancellation",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2141257766"
     }
   },
   {
@@ -1756,7 +1975,8 @@
     "metadata": {
       "relatedTechnology": "RxJS",
       "keyword": "error handling, catchError, Observable, complete, subscribe",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/35192856"
     }
   },
   {
@@ -1764,7 +1984,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "RxJS, onError guidelines, error handling, observable",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/774045780"
     }
   },
   {
@@ -1772,7 +1993,8 @@
     "metadata": {
       "relatedTechnology": "RxJS",
       "keyword": "Operators, switchMap, withLatestFrom, mergeMap",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/52724289"
     }
   },
   {
@@ -1780,7 +2002,8 @@
     "metadata": {
       "relatedTechnology": "RxJS",
       "keyword": "switchMap",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/51281921"
     }
   },
   {
@@ -1788,7 +2011,8 @@
     "metadata": {
       "relatedTechnology": "RxJS",
       "keyword": "withLatestFrom, observable, data processing",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/35160092"
     }
   },
   {
@@ -1796,7 +2020,8 @@
     "metadata": {
       "relatedTechnology": "RxJS",
       "keyword": "mergeMap, subscribe, asynchronous, concurrent",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/27295761"
     }
   },
   {
@@ -1804,7 +2029,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GitHub repository, permission setting, transpiler, bundler, framework, libs, TypeScript, Webpack, React.js, Angular",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/125567580"
     }
   },
   {
@@ -1812,7 +2038,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Lint & Prettify, Prettier, ESLint, TSCONFIG, NVMRC",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/165052966"
     }
   },
   {
@@ -1820,7 +2047,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Android app",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/125633047"
     }
   },
   {
@@ -1828,7 +2056,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "App Center, Code Push, Management CLI, RN project, Release, Troubleshooting",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/172261775"
     }
   },
   {
@@ -1836,7 +2065,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Firebase, project setup, Firebase console, RN project setup",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/184582433"
     }
   },
   {
@@ -1844,7 +2074,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Zeplin, component connection",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/184778986"
     }
   },
   {
@@ -1852,7 +2083,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "tsconfig, TypeScript, configuration, management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1150189733"
     }
   },
   {
@@ -1860,7 +2092,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GitHub, Code Owners, repository, code ownership, reviewer, merge approval",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1948319760"
     }
   },
   {
@@ -1868,7 +2101,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "App registration, App ID creation, Apple Developer, Certificates, Identifiers, Profiles, Push Notifications, Capabilities, Bundle ID, SKU",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/224133169"
     }
   },
   {
@@ -1876,7 +2110,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "APN 인증 키 생성, Firebase iOS 생성, APN 키, Apple Push Notifications service",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1947795474"
     }
   },
   {
@@ -1884,7 +2119,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Firebase iOS, APN, iOS app creation, APN authentication key registration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3015934024"
     }
   },
   {
@@ -1892,7 +2128,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Xcode project creation, React Native, iOS Native",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2905145351"
     }
   },
   {
@@ -1900,7 +2137,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "QA build setup, QA configuration, QA scheme, Customize QA configuration, Product Bundle Identifier, Entry file for TypeScript, Different App icons",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/745505248"
     }
   },
   {
@@ -1908,7 +2146,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Keystore, Secret, Generate, Setup, Android, Deployment",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/866123786"
     }
   },
   {
@@ -1916,7 +2155,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Firebase, iOS, React Native, installation, configuration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/880279900"
     }
   },
   {
@@ -1924,7 +2164,8 @@
     "metadata": {
       "relatedTechnology": "Firebase, React Native Firebase",
       "keyword": "Firebase, Android, setup, registration, configuration, React Native Firebase",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/236879899"
     }
   },
   {
@@ -1932,7 +2173,8 @@
     "metadata": {
       "relatedTechnology": "Firebase",
       "keyword": "Firebase Analytics, DebugView, User Tracking, Screen Tracking, Login Tracking, User Properties",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/461799743"
     }
   },
   {
@@ -1940,7 +2182,8 @@
     "metadata": {
       "relatedTechnology": "Firebase",
       "keyword": "Crashlytics, error management, testing, notifications",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204996771"
     }
   },
   {
@@ -1948,7 +2191,8 @@
     "metadata": {
       "relatedTechnology": "Firebase, React Native",
       "keyword": "Performance Monitoring, Network Speed, Rendering Performance, Custom Performance Measurement",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1069842437"
     }
   },
   {
@@ -1956,7 +2200,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Firebase, Jira integration, project settings, JIRA API token, CRASHLYTICS notification",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/3048734845"
     }
   },
   {
@@ -1964,7 +2209,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Pseudolocalization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2151448592"
     }
   },
   {
@@ -1972,7 +2218,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Localization, Internationalization, Translation, Timezone, Currency, ICU Message Syntax, Number Format, Holidays, Service Name, Religious/Cultural Issues, Icon Usage, UI/UX",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/883327112"
     }
   },
   {
@@ -1980,7 +2227,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Monorepo, Yarn, Workspaces, Dependency Management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/964198492"
     }
   },
   {
@@ -1988,7 +2236,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Monorepo, Yarn Berry, Turbo, workspaces, npm, package management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/334266437"
     }
   },
   {
@@ -1996,7 +2245,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Monorepo, Regenerate package-lock.json, Upgrade modules, Node.js, Merge exists repository, Setting eslint, Setting lint-staged, Edit Dockerfile, Edit docker-compose.yml, Edit GitHub Actions workflow, Edit Jenkinsfile for deploy, Edit Monorepo pipeline, Setting chromatic, Move cypress test code & clean up",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/334692490"
     }
   },
   {
@@ -2004,7 +2254,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Monorepo, Pipeline, Lifecycle, turbo.json, dependency management",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/334332196"
     }
   },
   {
@@ -2012,7 +2263,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Monorepo, Husky, Lint-staged, Jest, findRelatedTests",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/342327538"
     }
   },
   {
@@ -2020,7 +2272,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest, mock functions, mockReturnValue, mockReturnValueOnce, mockImplementation, mockImplementationOnce",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/408944714"
     }
   },
   {
@@ -2028,7 +2281,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "testing, file naming convention",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1635450885"
     }
   },
   {
@@ -2036,7 +2290,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest error, React.createElement, type is invalid, ServiceDetailScreen, Provider, ConnectFunction",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1635516427"
     }
   },
   {
@@ -2044,7 +2299,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest error, TypeError, Super expression, mock, BaseScreen",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1635287068"
     }
   },
   {
@@ -2052,7 +2308,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest error, React component, mocking, export default, named imports",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/1635745800"
     }
   },
   {
@@ -2060,7 +2317,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest error, ReferenceError, React is not defined, error boundary, React import",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204308569"
     }
   },
   {
@@ -2068,7 +2326,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Jest optimization, Jest performance, Jest configuration",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/204374073"
     }
   },
   {
@@ -2076,7 +2335,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "OAuth2, GCP, Google API, Refresh token, Access token, Permissions, ERP, Google Calendar API",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221053004"
     }
   },
   {
@@ -2084,7 +2344,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "integration development guide, routing, ERP product registration, CCN upload, communication test",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221118525"
     }
   },
   {
@@ -2092,7 +2353,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Google Tag Manager, Marketing tracking script injection, Tags, Tag Configuration, Trigger, Submit",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221578718"
     }
   },
   {
@@ -2100,7 +2362,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Google Analytics, utm parameter, query string",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2225995796"
     }
   },
   {
@@ -2108,7 +2371,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GTM, trigger, create, button click, tag",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/599359651"
     }
   },
   {
@@ -2116,7 +2380,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GTM link click, trigger, Just Links",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/2779054141"
     }
   },
   {
@@ -2124,7 +2389,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "GTM Form Submission Trigger, Form ID Confirmation, Form Submission Trigger Creation, Trigger Not Working",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/243138599"
     }
   },
   {
@@ -2132,7 +2398,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Go, Operator SDK, installation, GVM, GO CLI, VSCODE GO EXTENSION",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/215449605"
     }
   },
   {
@@ -2140,7 +2407,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Prompt Engineering",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/223183054"
     }
   },
   {
@@ -2148,7 +2416,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "HuggingFace, LLM, FM, Foundation Model, Open source, AI Model, SDK",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/219515085"
     }
   },
   {
@@ -2156,7 +2425,8 @@
     "metadata": {
       "relatedTechnology": "TRAMSFORMER.JS, HuggingFace, AWS Transcribe, Assembly AI Speech-to-Text, OpenAI Whisper, AWS Bedrock, LeMUR",
       "keyword": "Audio-To-Text, Automatic Speech Recognition, ASR, Speech-to-Text, Text Summarization",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221151311"
     }
   },
   {
@@ -2164,7 +2434,8 @@
     "metadata": {
       "relatedTechnology": "Terraform, Kubernetes",
       "keyword": "Helm, Terraform, Kubernetes, operator.yaml, rbac.yaml",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/221053011"
     }
   },
   {
@@ -2172,7 +2443,8 @@
     "metadata": {
       "relatedTechnology": "@huggingface/hub, @huggingface/inference",
       "keyword": "Huggingface.js, Transformers.js, HUB, RESPOSITORY, MODEL INFERENCE, LLM CHATCOMPLETION",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/245202952"
     }
   },
   {
@@ -2180,7 +2452,8 @@
     "metadata": {
       "relatedTechnology": "",
       "keyword": "Transformer.js, model inference, model execution, model download, model options, audio-to-text, Automatic Speech Recognition, pipeline",
-      "isDeprecated": false
+      "isDeprecated": false,
+      "url": "https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/217776156"
     }
   }
 ]
