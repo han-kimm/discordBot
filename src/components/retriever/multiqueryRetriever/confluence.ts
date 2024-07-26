@@ -1,16 +1,24 @@
-import { Chroma } from "@langchain/community/vectorstores/chroma";
-import { chatOpenai, embedOpenai } from "../../../libs/openai";
-import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
 import { PromptTemplate } from "@langchain/core/prompts";
+import { PineconeStore } from "@langchain/pinecone";
+import { Pinecone } from "@pinecone-database/pinecone";
+import { config } from "dotenv";
+import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
+import { chatOpenai, embedOpenai } from "../../../libs/openai";
+
+config();
 
 export async function confluenceMultiqueryRetriever(query: string) {
   const llm = chatOpenai("gpt-3.5-turbo");
 
-  const vertorStore = await Chroma.fromExistingCollection(
+  const pc = new Pinecone();
+
+  const pineconeIndex = pc.index(process.env.PINECONE_INDEX_NAME ?? "");
+
+  const vertorStore = await PineconeStore.fromExistingIndex(
     embedOpenai("text-embedding-3-large"),
     {
-      collectionName: "ecubelabs-selfquery-2",
-      url: "http://localhost:8000",
+      pineconeIndex,
+      namespace: process.env.PINECONE_NAMESPACE ?? "",
     }
   );
 
@@ -24,15 +32,20 @@ export async function confluenceMultiqueryRetriever(query: string) {
     prompt: new PromptTemplate({
       inputVariables: ["question", "queryCount"],
       template: `
-You are a good AI developer. Answer must always be based on given context. you can't lie.
-Generate 5 phrase which summarize the given context. the phrases will be used for searching relevant documents in company's database.
+You are a code convention checker.
+Given that you need to make good quality code or refactor related code, Generate 5 sentences which are related the given context.
+Your answer is for retrieving relevant documents from vector database.
 
-Provide these alternative phrases separated by newlines between XML tags of 'questions'. For example:
+Provide these alternative sentences separated by newlines between XML tags of 'questions'.
 
+For example:
+<context>
+react
+</context>
 <questions>
-phrase 1
-phrase 2
-phrase 3
+1. code convention of react
+2. front-end code convention
+3. front-end component code convention
 </questions>
 
 context:{question}`,
