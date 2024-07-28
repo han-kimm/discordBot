@@ -2,6 +2,7 @@
   "name": "rag-study",
   "scripts": {
     "build": "tsc",
+    "discord": "nodemon --exec ts-node src/libs/discord/discord.ts",
     "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node build/index.js"
   },
@@ -20,6 +21,7 @@
     "@pinecone-database/pinecone": "^2.2.2",
     "axios": "^1.7.2",
     "chromadb": "^1.8.1",
+    "discord.js": "^14.15.3",
     "html-to-text": "^9.0.5",
     "peggy": "^4.0.3"
   },
