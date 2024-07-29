@@ -19,7 +19,7 @@ export async function confluenceMultiQueryRetriever(
 
   const pineconeIndex = pc.index(index);
 
-  const vertorStore = await PineconeStore.fromExistingIndex(
+  const vectorStore = await PineconeStore.fromExistingIndex(
     embedOpenai("text-embedding-3-large"),
     {
       pineconeIndex,
@@ -27,15 +27,15 @@ export async function confluenceMultiQueryRetriever(
     }
   );
 
-  const retriever = vertorStore.asRetriever({
+  const retriever = vectorStore.asRetriever({
     k: 1,
   });
 
-  const multiqueryRetriever = MultiQueryRetriever.fromLLM({
+  const multiQueryRetriever = MultiQueryRetriever.fromLLM({
     retriever,
     // @ts-expect-error
     llm,
-    queryCount: 3,
+    queryCount: 5,
     prompt: new PromptTemplate({
       inputVariables: ["question", "queryCount"],
       template: `
@@ -50,16 +50,18 @@ For example:
 연차
 </context>
 <questions>
-1. 연차 신청 방법
-2. 연차 가이드
-3. 연차 사용
+연차 신청 방법
+연차 가이드
+연차 사용
+연차 기준
+반차와 연차 차이
 </questions>
 
 context:{question}`,
     }),
   });
 
-  const documents = await multiqueryRetriever.invoke(query);
+  const documents = await multiQueryRetriever.invoke(query);
 
   return documents.reduce(
     (acc, doc, idx) =>
@@ -82,8 +84,11 @@ export async function confluenceMultiQueryEvaluator(
     index,
     namespace
   );
-  const passOrRetrieve = await evaluateDocument(query, relatedDocs);
+  if (relatedDocs === "") {
+    return ["", "retrieve"];
+  }
 
+  const passOrRetrieve = await evaluateDocument(query, relatedDocs);
   return [relatedDocs, passOrRetrieve];
 }
 
@@ -99,7 +104,7 @@ export async function multiQueryRAG(
     namespace
   );
 
-  if (passOrRetrieve === "retrieve" && retryNamespace) {
+  if (passOrRetrieve === "retrieve") {
     [relatedDocs, passOrRetrieve] = await confluenceMultiQueryEvaluator(
       query,
       index,

@@ -4,6 +4,7 @@ import codeConventionRouter from "./codeConvention";
 import howToRouter from "./howTo";
 import referenceRouter from "./reference";
 import errorSolutionRouter from "./errorSolution";
+import archiveRouter from "./archive";
 
 // NOTE: router Tool module
 // Add routes here
@@ -12,11 +13,7 @@ const indexRouter: { [key: string]: any } = {
   ...codeConventionRouter,
   ...referenceRouter,
   ...errorSolutionRouter,
-  archive: {
-    route: function llmInferFromValue() {},
-    description:
-      "find past resources. e.g. minutes of meeting and report of past events or projects",
-  },
+  ...archiveRouter,
 };
 
 const routerDescription = Object.entries(indexRouter)

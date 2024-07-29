@@ -1,10 +1,10 @@
 import { ChatBotContext } from ".";
 import { multiQueryRAG } from "../components/retriever/multiqueryRetriever/confluence";
 import { chatOpenai } from "../libs/openai";
-import { errorSolutionPrompt } from "../prompts/errorSolution";
+import { howToPrompt } from "../prompts/howTo";
 
 export default {
-  errorSolution: {
+  archive: {
     async route(ctx: ChatBotContext) {
       const { query, route, onRetrieveStart, onLLMStart, onRetrieveFail } = ctx;
 
@@ -19,7 +19,7 @@ export default {
         onLLMStart();
         const llm = chatOpenai("gpt-4o");
         //@ts-expect-error
-        const chain = errorSolutionPrompt.pipe(llm);
+        const chain = howToPrompt.pipe(llm);
         const response = await chain.stream({
           userInput: query,
           relatedDocs,
@@ -31,6 +31,6 @@ export default {
       }
     },
     description:
-      "when the user is finding a solution for the error. or having a problem with the code or software.",
+      "when the user find past resources. e.g. minutes of meeting and report of past events or projects",
   },
 };
