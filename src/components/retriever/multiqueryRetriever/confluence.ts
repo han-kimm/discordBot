@@ -22,7 +22,7 @@ export async function confluenceMultiqueryRetriever(
     embedOpenai("text-embedding-3-large"),
     {
       pineconeIndex,
-      ...(namespace ? { namespace } : {}),
+      namespace,
     }
   );
 
@@ -46,7 +46,7 @@ Provide these alternative sentences separated by newlines between XML tags of 'q
 
 For example:
 <context>
-연차
+연차
 </context>
 <questions>
 1. 연차 신청 방법
