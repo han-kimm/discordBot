@@ -1,7 +1,7 @@
 import { ChatBotContext } from ".";
 import { multiQueryRAG } from "../components/retriever/multiqueryRetriever/confluence";
 import { chatOpenai } from "../libs/openai";
-import { howToPrompt } from "../prompts/how-to";
+import { howToPrompt } from "../prompts/howTo";
 
 export default {
   "how-to": {
@@ -30,6 +30,7 @@ export default {
         return onRetrieveFail();
       }
     },
-    description: "how to do something",
+    description:
+      "when the user is not sure how to do something. e.g. install a package, use a tool and quickstart guide.",
   },
 };

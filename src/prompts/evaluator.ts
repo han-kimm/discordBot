@@ -5,7 +5,8 @@ const promptComponent = {
   instruction: `
       Evaluate the relevance of the document to the question.
       You must answer one word of "pass" or "retrieve".
-      If you can answer based on <relatedDocs>, you can answer "pass".
+      If you can answer the question based on <relatedDocs>, you can answer "pass".
+      If you can partially answer the question based on <relatedDocs>, you can answer "pass".
       Else, answer "retrieve"
         `,
   example: `

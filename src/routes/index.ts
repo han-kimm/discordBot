@@ -1,25 +1,23 @@
 import { Message } from "discord.js";
 import { chatOpenai } from "../libs/openai";
 import { routerPrompt } from "../prompts/route";
-import howToRouter from "./how-to";
+import howToRouter from "./howTo";
+import codeConventionRouter from "./codeConvention";
 
 // NOTE: router Tool module
 // Add routes here
 const indexRouter: { [key: string]: any } = {
   ...howToRouter,
-  "code-convention": {
-    route: function llmCodeConvention() {},
-    description: "code convention",
-  },
-  "error-solution": {
+  ...codeConventionRouter,
+  errorSolution: {
     route: function llmErrorSolution() {},
     description: "solve an error",
   },
-  "find-simple-value": {
+  findSimpleValue: {
     route: function llmFindSimpleValue() {},
     description: "find simple values from confluence pages",
   },
-  "infer-from-value": {
+  inferFromValue: {
     route: function llmInferFromValue() {},
     description: "infer something from values of confluence pages",
   },
@@ -40,15 +38,16 @@ export type ChatBotContext = {
 
 export async function chatBot(ctx: ChatBotContext) {
   const { query, onRouteSuccess } = ctx;
-  const llm = chatOpenai("gpt-4o-mini");
+  const routerLLM = chatOpenai("gpt-4o-mini");
   // @ts-expect-error, langchain.js 업데이트를 기다려야 함
-  const chain = routerPrompt.pipe(llm);
+  const chain = routerPrompt.pipe(routerLLM);
   const response = await chain.invoke({
     routerDescription,
     userInput: query,
   });
   const route = response.content as string;
 
+  console.log(route);
   ctx.route = route;
   onRouteSuccess();
   return indexRouter[route].route(ctx);

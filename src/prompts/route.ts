@@ -16,12 +16,12 @@ const promptComponent = {
         <user>
         22년도 매출과 23년도 매출 비교하기
         </user>
-        infer-from-value
+        inferFromValue
         
         <user>
-        SW팀 R&R의 구조적 특징
+        타입스크립트 에러 무시할 때 필요한 것
         </user>
-        infer-from-value
+        codeConvention
         `,
 };
 
