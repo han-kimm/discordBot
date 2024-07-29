@@ -9,6 +9,7 @@ config();
 
 export async function categorizedConfluenceEmbedder(
   filename: string,
+  index: string,
   namespace: string
 ) {
   const docs = await getAllPageContentsFromJSON(filename);
@@ -25,7 +26,7 @@ export async function categorizedConfluenceEmbedder(
     apiKey: process.env.PINECONE_API_KEY!,
   });
 
-  const pineconeIndex = pc.index("ecubelabs-knowledge");
+  const pineconeIndex = pc.index(index);
 
   const vectorStore = await PineconeStore.fromDocuments(
     splittedDocs,

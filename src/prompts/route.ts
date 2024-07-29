@@ -16,6 +16,7 @@ const promptComponent = {
         22년도 매출과 23년도 매출 비교하기
         </user>
         infer-from-value
+        
         <user>
         SW팀 R&R의 구조적 특징
         </user>

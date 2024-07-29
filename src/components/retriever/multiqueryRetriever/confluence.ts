@@ -7,18 +7,22 @@ import { chatOpenai, embedOpenai } from "../../../libs/openai";
 
 config();
 
-export async function confluenceMultiqueryRetriever(query: string) {
-  const llm = chatOpenai("gpt-3.5-turbo");
+export async function confluenceMultiqueryRetriever(
+  query: string,
+  index: string,
+  namespace?: string
+) {
+  const llm = chatOpenai("gpt-4o-mini");
 
   const pc = new Pinecone();
 
-  const pineconeIndex = pc.index(process.env.PINECONE_INDEX_NAME ?? "");
+  const pineconeIndex = pc.index(index);
 
   const vertorStore = await PineconeStore.fromExistingIndex(
     embedOpenai("text-embedding-3-large"),
     {
       pineconeIndex,
-      namespace: process.env.PINECONE_NAMESPACE ?? "",
+      ...(namespace ? { namespace } : {}),
     }
   );
 
@@ -28,29 +32,41 @@ export async function confluenceMultiqueryRetriever(query: string) {
 
   const multiqueryRetriever = MultiQueryRetriever.fromLLM({
     retriever,
+    // @ts-expect-error
     llm,
+    queryCount: 3,
     prompt: new PromptTemplate({
       inputVariables: ["question", "queryCount"],
       template: `
-You are a code convention checker.
-Given that you need to make good quality code or refactor related code, Generate 5 sentences which are related the given context.
+You are a query generator.
+Given that you need to make accurate and relevant query, Generate {queryCount} sentences which are related the given context.
 Your answer is for retrieving relevant documents from vector database.
 
 Provide these alternative sentences separated by newlines between XML tags of 'questions'.
 
 For example:
 <context>
-react
+연차
 </context>
 <questions>
-1. code convention of react
-2. front-end code convention
-3. front-end component code convention
+1. 연차 신청 방법
+2. 연차 가이드
+3. 연차 사용
 </questions>
 
 context:{question}`,
     }),
   });
 
-  return multiqueryRetriever.invoke(query);
+  const documents = await multiqueryRetriever.invoke(query);
+
+  return documents.reduce(
+    (acc, doc, idx) =>
+      acc +
+      "\n" +
+      `document ${idx + 1}: ${doc.pageContent}
+       url: ${doc.metadata.url}
+    `,
+    ""
+  );
 }
