@@ -10,12 +10,7 @@ export async function confluenceLoader(parentPageId: string) {
   console.log("|");
   const pageContents = await getAllPageContents(parentPageId);
   const documents = pageContents.map((embed) => {
-    return new Document({
-      pageContent: embed.pageContent,
-      metadata: {
-        url: embed.url,
-      },
-    });
+    return new Document(embed);
   });
 
   return documents;
@@ -23,20 +18,7 @@ export async function confluenceLoader(parentPageId: string) {
 
 export async function confluencePrepLoader(fileName: string) {
   const pageContents = await getAllPageContentsFromJSON(fileName);
-  const documents = pageContents.map((embed) => {
-    if ("metadata" in embed) {
-      return new Document({
-        pageContent: embed.pageContent,
-        metadata: embed.metadata,
-      });
-    }
-    return new Document({
-      pageContent: embed.pageContent,
-      metadata: {
-        url: embed.url,
-      },
-    });
-  });
+  const documents = pageContents.map((embed) => new Document(embed));
 
   return documents;
 }

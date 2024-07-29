@@ -2,6 +2,9 @@ import axios from "axios";
 import { config } from "dotenv";
 import { writeFile, readFile } from "fs/promises";
 import { htmlToText } from "html-to-text";
+import { chatOpenai } from "./openai";
+import { embeddingPrompt } from "../prompts/embedding";
+import path from "path";
 
 config();
 const username = process.env.ATLASSIAN_USERNAME;
@@ -62,7 +65,9 @@ export async function getContentById(id: string) {
   const value = response.data.body.export_view.value;
   return {
     pageContent: htmlToText(title + value),
-    url: `${baseUrl}/wiki/spaces/${spaceKey}/pages/${id}`,
+    metaData: {
+      url: `${baseUrl}/wiki/spaces/${spaceKey}/pages/${id}`,
+    },
   };
 }
 
@@ -83,7 +88,7 @@ export async function getAllPageContentsWithJSON(filePath: string) {
   return contents;
 }
 
-export async function saveAllpageContents(parentPageId: string) {
+export async function saveAllPageContents(parentPageId: string) {
   const contents = await getAllPageContents(parentPageId);
 
   await writeFile(
@@ -95,13 +100,86 @@ export async function saveAllpageContents(parentPageId: string) {
 
 export async function getAllPageContentsFromJSON(
   filePath: string
-): Promise<
-  | { pageContent: string; url: string }[]
-  | { pageContent: string; metadata: { [key: string]: any } }[]
-> {
+): Promise<{ pageContent: string; metadata: { [key: string]: any } }[]> {
   const data = await readFile(
     __dirname.replace("libs", "assets") + `/${filePath}`,
     "utf-8"
   );
   return JSON.parse(data);
+}
+
+// 새로운 데이터를 추가하는 함수
+async function addData(newData: any[]) {
+  try {
+    // 파일을 읽고 기존 데이터를 파싱
+    const filePath = path.join(
+      __dirname,
+      "/assets/confluenceDocuments-3571866.json"
+    );
+
+    const data = await readFile(filePath, "utf8");
+    let jsonData = [];
+    if (data) {
+      jsonData = JSON.parse(data);
+    }
+
+    // 새로운 데이터를 기존 데이터에 추가
+    jsonData = [...jsonData, ...newData];
+
+    // 수정된 데이터를 JSON 문자열로 변환
+    const updatedData = JSON.stringify(jsonData, null, 2);
+
+    // 파일에 데이터를 덮어쓰기 없이 추가
+    await writeFile(filePath, updatedData, "utf8");
+    console.log("새로운 데이터가 성공적으로 추가되었습니다.");
+  } catch (err) {
+    console.error("오류 발생:", err);
+  }
+}
+
+export async function categorizeAllpageContents() {
+  const docs = await getAllPageContentsFromJSON(
+    "confluenceContents-3571866.json"
+  );
+
+  const llm = chatOpenai("gpt-4o-mini");
+  // @ts-expect-error, langchain.js 업데이트를 기다려야 함
+  const chain = embeddingPrompt.pipe(llm);
+
+  let index = 1;
+  const concurrency = 10;
+  while (index < docs.length) {
+    try {
+      const currentDoc = docs.slice(index, index + concurrency);
+      const results = await Promise.allSettled(
+        currentDoc.map((doc) =>
+          chain
+            .invoke({ userInput: doc.pageContent })
+            .then((res) => res.content as string)
+        )
+      );
+
+      const categorizedDocs = currentDoc.map((doc, i) => {
+        const result = results[i];
+        if ("url" in doc && result.status === "fulfilled") {
+          return {
+            pageContent: doc.pageContent,
+            metadata: {
+              url: doc.url,
+              category: result.value,
+            },
+          };
+        }
+      });
+
+      await addData(categorizedDocs);
+
+      console.log("처리된 문서 수:", index + concurrency);
+      console.log("progress:", ((index + concurrency) / docs.length) * 100);
+
+      index += concurrency;
+    } catch {
+      console.error("오류 발생:", index);
+    }
+  }
 }

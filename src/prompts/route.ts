@@ -23,7 +23,7 @@ const promptComponent = {
         `,
 };
 
-export const prompt = ChatPromptTemplate.fromMessages([
+export const routerPrompt = ChatPromptTemplate.fromMessages([
   ["system", promptComponent.system],
   [
     "user",

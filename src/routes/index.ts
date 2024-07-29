@@ -1,5 +1,5 @@
 import { chatOpenai } from "../libs/openai";
-import { prompt } from "../prompts/route";
+import { routerPrompt } from "../prompts/route";
 import howToRouter from "./how-to";
 
 // NOTE: router Tool module
@@ -31,7 +31,7 @@ const routerDescription = Object.entries(indexRouter)
 export async function chatBot(input: string) {
   const llm = chatOpenai("gpt-4o-mini");
   // @ts-expect-error, langchain.js 업데이트를 기다려야 함
-  const chain = prompt.pipe(llm);
+  const chain = routerPrompt.pipe(llm);
   const route = await chain.invoke({
     routerDescription,
     userInput: input,
