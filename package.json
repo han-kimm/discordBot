@@ -4,7 +4,7 @@
     "build": "tsc",
     "discord": "nodemon --exec ts-node src/libs/discord/discord.ts",
     "dev": "nodemon --exec ts-node src/index.ts",
-    "start": "tsc && node build/index.js"
+    "start": "node build/index.js"
   },
   "devDependencies": {
     "@types/html-to-text": "^9.0.4",

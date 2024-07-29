@@ -34,22 +34,26 @@ module.exports = {
       },
     };
 
-    const response = await triggerRouter(ctx);
+    try {
+      const response = await triggerRouter(ctx);
 
-    let responseContent = "";
-    let lastEditTime = Date.now();
+      let responseContent = "";
+      let lastEditTime = Date.now();
 
-    for await (const chunk of response) {
-      responseContent += chunk.content;
+      for await (const chunk of response) {
+        responseContent += chunk.content;
 
-      // Discord.js는 websocket 연결이 안되어서, stream 방식 대신 0.250ms 간격으로 응답을 업데이트합니다.
-      if (Date.now() - lastEditTime > 250) {
-        await initialResponse.edit(responseContent || "...");
-        lastEditTime = Date.now();
+        // Discord.js는 websocket 연결이 안되어서, stream 방식 대신 0.250ms 간격으로 응답을 업데이트합니다.
+        if (Date.now() - lastEditTime > 250) {
+          await initialResponse.edit(responseContent || "...");
+          lastEditTime = Date.now();
+        }
       }
-    }
 
-    // 스트림이 완료되면 최종 응답 전송
-    await initialResponse.edit(responseContent);
+      // 스트림이 완료되면 최종 응답 전송
+      await initialResponse.edit(responseContent);
+    } catch (e) {
+      console.error(e);
+    }
   },
 };
