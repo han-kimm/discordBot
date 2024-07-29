@@ -20,5 +20,4 @@ export const embedOpenai = (
   new OpenAIEmbeddings({
     openAIApiKey,
     modelName,
-    dimensions: modelName === "text-embedding-3-large" ? 1024 : 512,
   });

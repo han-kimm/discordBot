@@ -137,7 +137,7 @@ async function addData(newData: any[]) {
   }
 }
 
-export async function categorizeAllpageContents() {
+export async function categorizeAllPageContents() {
   const docs = await getAllPageContentsFromJSON(
     "confluenceContents-3571866.json"
   );

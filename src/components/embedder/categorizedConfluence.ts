@@ -1,18 +1,19 @@
 import { PineconeStore } from "@langchain/pinecone";
 import { Pinecone } from "@pinecone-database/pinecone";
 import { config } from "dotenv";
-import { embedOpenai } from "./libs/openai";
-import { getAllPageContentsFromJSON } from "./libs/confluence";
-import { confluenceSplitter } from "./components/splitter/confluence";
+import { getAllPageContentsFromJSON } from "../../libs/confluence";
+import { confluenceSplitter } from "../splitter/confluence";
+import { embedOpenai } from "../../libs/openai";
 
 config();
 
-async function main() {
-  const docs = await getAllPageContentsFromJSON(
-    "confluenceDocuments-3571866.json"
-  );
+export async function categorizedConfluenceEmbedder(
+  filename: string,
+  namespace: string
+) {
+  const docs = await getAllPageContentsFromJSON(filename);
 
-  const filetedDocs = docs.filter((doc) => doc.metadata.category === "archive");
+  const filetedDocs = docs.filter((doc) => doc.metadata.category === namespace);
 
   const splittedDocs = await confluenceSplitter({
     documents: filetedDocs,
@@ -31,7 +32,7 @@ async function main() {
     embedOpenai("text-embedding-3-large"),
     {
       pineconeIndex,
-      namespace: "archive",
+      namespace,
     }
   );
 
