@@ -9,7 +9,6 @@
   "devDependencies": {
     "@types/html-to-text": "^9.0.4",
     "@types/node": "^20.14.10",
-    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
@@ -20,8 +19,8 @@
     "@langchain/pinecone": "^0.0.7",
     "@pinecone-database/pinecone": "^2.2.2",
     "axios": "^1.7.2",
-    "chromadb": "^1.8.1",
     "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
     "html-to-text": "^9.0.5",
     "peggy": "^4.0.3"
   },
