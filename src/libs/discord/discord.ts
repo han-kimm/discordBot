@@ -6,8 +6,6 @@ import path from "path";
 config();
 
 const token = process.env.DISCORD_TOKEN!;
-const clientId = process.env.DISCORD_BOT_ID!;
-const guildId = process.env.DISCORD_SERVER_ID!;
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.DirectMessages],
