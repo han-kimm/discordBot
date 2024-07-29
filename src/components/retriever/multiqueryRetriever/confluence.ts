@@ -4,10 +4,11 @@ import { Pinecone } from "@pinecone-database/pinecone";
 import { config } from "dotenv";
 import { MultiQueryRetriever } from "langchain/retrievers/multi_query";
 import { chatOpenai, embedOpenai } from "../../../libs/openai";
+import { evaluateDocument } from "../../evaluator";
 
 config();
 
-export async function confluenceMultiqueryRetriever(
+export async function confluenceMultiQueryRetriever(
   query: string,
   index: string,
   namespace?: string
@@ -69,4 +70,42 @@ context:{question}`,
     `,
     ""
   );
+}
+
+export async function confluenceMultiQueryEvaluator(
+  query: string,
+  index: string,
+  namespace?: string
+) {
+  const relatedDocs = await confluenceMultiQueryRetriever(
+    query,
+    index,
+    namespace
+  );
+  const passOrRetrieve = await evaluateDocument(query, relatedDocs);
+
+  return [relatedDocs, passOrRetrieve];
+}
+
+export async function multiQueryRAG(
+  query: string,
+  index: string,
+  namespace?: string,
+  retryNamespace: string = "all"
+) {
+  let [relatedDocs, passOrRetrieve] = await confluenceMultiQueryEvaluator(
+    query,
+    index,
+    namespace
+  );
+
+  if (passOrRetrieve === "retrieve" && retryNamespace) {
+    [relatedDocs, passOrRetrieve] = await confluenceMultiQueryEvaluator(
+      query,
+      index,
+      retryNamespace
+    );
+  }
+
+  return [relatedDocs, passOrRetrieve];
 }

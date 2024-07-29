@@ -1,40 +1,34 @@
-import { confluenceMultiqueryRetriever } from "../components/retriever/multiqueryRetriever/confluence";
+import { ChatBotContext } from ".";
+import { multiQueryRAG } from "../components/retriever/multiqueryRetriever/confluence";
 import { chatOpenai } from "../libs/openai";
 import { howToPrompt } from "../prompts/how-to";
 
 export default {
   "how-to": {
-    async route(input: string) {
-      const relatedDocs = await confluenceMultiqueryRetriever(
-        input,
+    async route(ctx: ChatBotContext) {
+      const { query, route, onRetrieveStart, onLLMStart, onRetrieveFail } = ctx;
+
+      onRetrieveStart();
+      const [relatedDocs, passOrRetrieve] = await multiQueryRAG(
+        query,
         "ecubelabs-knowledge",
-        "how-to"
+        route
       );
 
-      const llm = chatOpenai("gpt-4o");
-
-      //@ts-expect-error
-      const chain = howToPrompt.pipe(llm);
-      const response = await chain.invoke({
-        userInput: input,
-        relatedDocs,
-      });
-
-      if (response.content === "retrieve") {
-        const newRelatedDocs = await confluenceMultiqueryRetriever(
-          input,
-          "ecubelabs-knowledge",
-          "reference"
-        );
-        const newResponse = await chain.invoke({
-          userInput: input,
-          relatedDocs: newRelatedDocs,
+      if (passOrRetrieve === "pass") {
+        onLLMStart();
+        const llm = chatOpenai("gpt-4o");
+        //@ts-expect-error
+        const chain = howToPrompt.pipe(llm);
+        const response = await chain.stream({
+          userInput: query,
+          relatedDocs,
         });
 
-        return newResponse;
+        return response;
+      } else {
+        return onRetrieveFail();
       }
-
-      return response;
     },
     description: "how to do something",
   },

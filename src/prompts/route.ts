@@ -5,6 +5,7 @@ const promptComponent = {
   instruction: `
         Find the intent of the user question.
         And use the tool to sort the question.
+        Your answer must be one word from the following tool intent list.
         `,
   tool: `
         router: when the question is given to the router, appropriate LLM for giving answer will be selected.
