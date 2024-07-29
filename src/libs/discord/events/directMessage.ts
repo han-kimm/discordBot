@@ -1,17 +1,19 @@
 import { Events, type Message } from "discord.js";
-import { chatBot } from "../../../routes";
+import { triggerRouter } from "../../../routes";
 
 module.exports = {
   name: Events.MessageCreate,
   async execute(message: Message) {
     if (message.author.bot) return;
 
-    const initialResponse = await message.reply("답변 중입니다...");
+    let initialResponse = await message.reply("답변 중입니다...");
     const ctx = {
       query: message.content,
       route: "",
-      onRouteSuccess: () => {
-        initialResponse.edit("질문을 분류하고 있습니다.");
+      onRouteSuccess: async () => {
+        initialResponse = await initialResponse.edit(
+          `질문을 \`${ctx.route}\`로 분류하고 있습니다.`
+        );
       },
       onRetrieveStart: () => {
         initialResponse.edit("관련 문서를 찾는 중입니다...");
@@ -32,7 +34,7 @@ module.exports = {
       },
     };
 
-    const response = await chatBot(ctx);
+    const response = await triggerRouter(ctx);
 
     let responseContent = "";
     let lastEditTime = Date.now();

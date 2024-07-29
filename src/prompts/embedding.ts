@@ -12,7 +12,7 @@ const promptComponent = {
         how-to: the document is a guidance for user who have not been familiar with the topic.
         code-convention: the document is a convention for making the code more readable and maintainable.
         error-solution: the document is an solution for the error.
-        reference: the document is a reference for studying the topic orf having a deep understanding.
+        reference: the document is a reference for studying the topic or having a deep understanding.
         archive: the document is an archive for minutes of meeting and report of past events or projects.
         `,
   example: `

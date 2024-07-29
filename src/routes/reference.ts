@@ -1,10 +1,10 @@
 import { ChatBotContext } from ".";
 import { multiQueryRAG } from "../components/retriever/multiqueryRetriever/confluence";
 import { chatOpenai } from "../libs/openai";
-import { codeConventionPrompt } from "../prompts/codeConvention";
+import { referencePrompt } from "../prompts/reference";
 
 export default {
-  codeConvention: {
+  reference: {
     async route(ctx: ChatBotContext) {
       const { query, route, onRetrieveStart, onLLMStart, onRetrieveFail } = ctx;
 
@@ -19,7 +19,7 @@ export default {
         onLLMStart();
         const llm = chatOpenai("gpt-4o");
         //@ts-expect-error
-        const chain = codeConventionPrompt.pipe(llm);
+        const chain = referencePrompt.pipe(llm);
         const response = await chain.stream({
           userInput: query,
           relatedDocs,
@@ -31,6 +31,6 @@ export default {
       }
     },
     description:
-      "when the use don't know how to write code in a certain way. e.g. code convention, code style, and best practice and use case.",
+      "a reference for studying the topic or having a deep understanding.",
   },
 };
