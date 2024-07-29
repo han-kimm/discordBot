@@ -15,8 +15,8 @@ const promptComponent = {
       question: 연차 신청 방법
       answer: 원티드 커먼스페이스에서 신청해 주세요.\n
       반차 신청시 출퇴근 기준은 15시입니다. 오전 반차는 15시 퇴근, 오후 반차는 15시 출근.\n
-      개인별 연차 일수 및 시간 조정은 [HR팀]('https://ecubelabs.atlassian.net/people/team/b46e3d9f-dc20-4bd7-9cb4-3e0ac85aa092')에 문의해 주세요.\n\n
-      [관련 Confluence 문서]('https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/875135056')
+      개인별 연차 일수 및 시간 조정은 [HR팀](https://ecubelabs.atlassian.net/people/team/b46e3d9f-dc20-4bd7-9cb4-3e0ac85aa092)에 문의해 주세요.\n\n
+      [관련 Confluence 문서](https://ecubelabs.atlassian.net/wiki/spaces/SW/pages/875135056)
         `,
 };
 

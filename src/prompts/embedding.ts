@@ -11,7 +11,7 @@ const promptComponent = {
         categorizer: when the document is given to the categorizer, it will categorize the document into one of the following categories:
         how-to: the document is a guidance for user who have not been familiar with the topic.
         code-convention: the document is a convention for making the code more readable and maintainable.
-        error-solution: the document is an solution for the error.
+        error-solution: the document is a solution for the error.
         reference: the document is a reference for studying the topic or having a deep understanding.
         archive: the document is an archive for minutes of meeting and report of past events or projects.
         `,

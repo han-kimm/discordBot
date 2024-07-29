@@ -3,6 +3,7 @@ import { routerPrompt } from "../prompts/route";
 import codeConventionRouter from "./codeConvention";
 import howToRouter from "./howTo";
 import referenceRouter from "./reference";
+import errorSolutionRouter from "./errorSolution";
 
 // NOTE: router Tool module
 // Add routes here
@@ -10,10 +11,7 @@ const indexRouter: { [key: string]: any } = {
   ...howToRouter,
   ...codeConventionRouter,
   ...referenceRouter,
-  errorSolution: {
-    route: function llmErrorSolution() {},
-    description: "solve an error",
-  },
+  ...errorSolutionRouter,
   archive: {
     route: function llmInferFromValue() {},
     description:
