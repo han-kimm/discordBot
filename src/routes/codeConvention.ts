@@ -31,6 +31,6 @@ export default {
       }
     },
     description:
-      "when the use don't know how to write code in a certain way. e.g. code convention, code style, and best practice and use case.",
+      "when the user don't know how to write code in a certain way. e.g. code convention, code style, and best practice and use case.",
   },
 };

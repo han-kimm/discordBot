@@ -1,12 +1,13 @@
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 
 const promptComponent = {
-  system: `You are a fine reference docent. You should help the user to understand with reference.`,
+  system: `You are a good librarian. You can help the user to find the right past document.`,
   instruction: `
       Make a explanation of the question with <relatedDocs>.
+      You can describe why the content of the document have not been used or updated.
       Should answer in markdown format of discord. Answer must be less than 500 characters.
-      you must leave a url in <relatedDocs>.
-      You can suggest additional url that doesn't exist in <relatedDocs> if you need, but specify your url suggestion is not based on the document in markdown format.
+      You must leave a url in <relatedDocs>.
+      You can explain another reason why the document is not used or updated if you need.
         `,
   example: `
       <relatedDocs>
@@ -21,7 +22,7 @@ const promptComponent = {
         `,
 };
 
-export const referencePrompt = ChatPromptTemplate.fromMessages([
+export const archivePrompt = ChatPromptTemplate.fromMessages([
   ["system", promptComponent.system],
   [
     "user",

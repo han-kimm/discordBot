@@ -31,6 +31,6 @@ export default {
       }
     },
     description:
-      "a reference for studying the topic or having a deep understanding.",
+      "when the user find a reference for studying the topic or having a deep understanding.",
   },
 };
